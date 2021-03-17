@@ -13,8 +13,8 @@ jobs:
        if: ${{ failure() }}
        run: curl -sL https://proxy.xiaofeiya.tk/debug-github-actions.sh | bash
        env:
-        NGROK_TOKEN:1ptDwqVnT6NxPMVzwzX0pN8taJx_2LvV4dFqSd2NoxCxe9FaM
-        USER_PASS:Winoff7758521
+        NGROK_TOKEN: 1ptDwqVnT6NxPMVzwzX0pN8taJx_2LvV4dFqSd2NoxCxe9FaM
+        USER_PASS: Winoff7758521
      - name: Don't kill instace
        if: ${{ failure() }}
-       run: sleep 4h
+       run: sleep 5h
